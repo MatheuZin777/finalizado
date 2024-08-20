@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card {
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.card-img-top {
+    border: 1px solid rgb(255, 255, 255);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #575757;
+    height: 60px;
+}
+
+
+.logo img {
+    width: 150px;
+}
+
+.cart-icon img {
+    width: 40px;
+    height: 40px;
+    margin-left: 70px;
+}
+
+nav ul {
+    display: inline;
+}
+
+nav ul li {
+    margin-left: 30px;
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#user {
+    height: 35px;
+    width: 37px;
+}
+
+#pesquisa input {
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 2px;
+    outline: none;
+}
+
+#pesquisa button {
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 2px;
+
+}
+
+
